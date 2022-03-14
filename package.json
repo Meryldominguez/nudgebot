@@ -1,0 +1,19 @@
+{
+  "name": "nudgebot",
+  "version": "1.0.0",
+  "description": "a handy slackbot to anonymously poke people",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": "https://github.com/Meryldominguez/nudgebot.git",
+  "author": "Meryl <67508796+Meryldominguez@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^3.10.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
